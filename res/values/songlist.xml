@@ -1,0 +1,216 @@
+<resources>
+    <string-array name="songs">
+<item>﻿A Little Respect – Erasure</item>
+<item>A Well-Respected Man – The Kinks</item>
+<item>Accidentally in Love – Counting Crows</item>
+<item>All I Have to Do Is Dream – The Everly Brothers</item>
+<item>All My Loving – The Beatles</item>
+<item>All You Need is Love – The Beatles</item>
+<item>Always Look on the Bright Side of Life – Monty Python</item>
+<item>Amarillo – Tony Christie</item>
+<item>Angels – Robbie Williams</item>
+<item>Anyone Else but You – The Moldy Peaches</item>
+<item>Aux Champs-Elysees – Joe Dassin</item>
+<item>Back for Good – Take That</item>
+<item>Bad Moon Rising – CCR</item>
+<item>Be My Baby – The Ronettes</item>
+<item>Big Yellow Taxi – Joni Mitchell</item>
+<item>Blitzkrieg Bop – The Ramones</item>
+<item>Blowin’ in the Wind – Bob Dylan</item>
+<item>Blue Moon – Rogers and Hart</item>
+<item>Blue Suede Shoes – Elvis Presley</item>
+<item>Bohemian Like You – Dandy Warhols</item>
+<item>Born to be Wild – Steppenwolf</item>
+<item>Breakfast at Tiffany’s – Deep Blue Something</item>
+<item>Bring Me Sunshine – Morecambe &amp; Wise</item>
+<item>Brown-Eyed Girl – Van Morrison</item>
+<item>Build Me Up Buttercup – The Foundations</item>
+<item>California Dreaming – Mamas and Papas</item>
+<item>City of New Orleans – Arlo Guthrie</item>
+<item>Come On Eileen – Dexy’s Midnight Runners</item>
+<item>Come Up and See Me (Make Me Smile) – Steve Harley &amp; Cockney Rebel</item>
+<item>Common People – Pulp</item>
+<item>Complicated – Avril Lavigne</item>
+<item>Country House – Blur</item>
+<item>Creep – Radiohead</item>
+<item>Crocodile Rock – Elton John</item>
+<item>Daydream – Lovin’ Spoonful</item>
+<item>Daydream Believer – The Monkees</item>
+<item>Dedicated Follower of Fashion – The Kinks</item>
+<item>Delilah – Tom Jones</item>
+<item>Dirty Old Town (1) – Old songbook</item>
+<item>Dirty Old Town (2) – The Pogues</item>
+<item>Dizzy – Tommy Roe</item>
+<item>Do You Love Me? – The Contours</item>
+<item>Don’t Leave Me This Way – Thelma Houston</item>
+<item>Don’t Stop Believin’ – Journey</item>
+<item>Don’t Stop Me Now – Queen</item>
+<item>Don’t Look Back in Anger – Oasis</item>
+<item>Don’t You Want Me – Human League</item>
+<item>Don’t Worry, Be Happy – Bobby McFerrin</item>
+<item>Down Under – Men at Work</item>
+<item>Enjoy the Silence – Depeche Mode</item>
+<item>Eye of the Tiger - Survivor</item>
+<item>Fairytale of New York – The Pogues</item>
+<item>Faith – George Michael</item>
+<item>The Final Countdown – Europe</item>
+<item>Firework – Katy Perry</item>
+<item>Five Foot Two – L, Y &amp;H</item>
+<item>Five Hundred Miles – The Proclaimers</item>
+<item>Folsom Prison Blues – Johnny Cash</item>
+<item>Forget You – Cee Lo Green</item>
+<item>Free Bird – Lynyrd Skynyrd</item>
+<item>Friday I’m in Love – The Cure</item>
+<item>Gold – Spandau Ballet</item>
+<item>Good Riddance – Green Day</item>
+<item>Groove is in the Heart – Deee Lite</item>
+<item>Hallelujah (abridged) – L Cohen</item>
+<item>Hand in My Pocket – Alanis Morissette</item>
+<item>Happy Together – The Turtles</item>
+<item>Have You Ever Seen the Rain – Creedence Clearwater Revival</item>
+<item>Hey Jude – The Beatles</item>
+<item>Hey Ya (abridged) – OutKast</item>
+<item>Hi Ho Silver Lining – Jeff Beck</item>
+<item>Hit Me Baby One More Time – Britney Spears</item>
+<item>Hit the Road – Ray Charles</item>
+<item>Hot n Cold – Katy Perry</item>
+<item>Hotel California – The Eagles</item>
+<item>House of the Rising Sun – The Animals</item>
+<item>I Can See Clearly Now – Johnny Nash</item>
+<item>I Don’t Want to Talk About It – Rod Stewart</item>
+<item>I Only Want to Be with You – Dusty Springfield</item>
+<item>I Predict a Riot – Kaiser Chiefs</item>
+<item>I Saw Her Standing There – The Beatles</item>
+<item>I Think We’re Alone Now – Tiffany</item>
+<item>I Wanna Be Like You – Shermans</item>
+<item>I Want to Break Free – Queen</item>
+<item>I Will Survive – Gloria Gaynor</item>
+<item>I Wish That I Could See You Soon – Herman Dune</item>
+<item>I’ll Be Your Baby – Bob Dylan</item>
+<item>I’ll Fly Away – Alison Krauss et al</item>
+<item>I’m a Believer – The Monkees</item>
+<item>I’m into Something Good – Herman’s Hermits</item>
+<item>I’m Yours – Jason Mraz</item>
+<item>Iko Iko – “Jockamo” James Crawford</item>
+<item>Imagine – John Lennon</item>
+<item>In the Summertime – Mungo Jerry</item>
+<item>Iris – The Goo Goo Dolls</item>
+<item>Israelites – Desmond Dekker</item>
+<item>It Must Be Love – Madness</item>
+<item>It’s Not Unusual – Tom Jones</item>
+<item>Jammin’ – Bob Marley</item>
+<item>The Joker – Steve Miller Band</item>
+<item>Jolene – Dolly Parton</item>
+<item>Karma Chameleon</item>
+<item>Kids – MGMT</item>
+<item>Kids in America – Kim Wilde</item>
+<item>Killing Me Softly – Roberta Flack</item>
+<item>King of the Road – Roger Miller</item>
+<item>Knockin’ on Heaven’s Door – Bob Dylan</item>
+<item>Lady Madonna – The Beatles</item>
+<item>The Lazy Song – Bruno Mars</item>
+<item>Let it Be – The Beatles</item>
+<item>Like a Prayer – Madonna</item>
+<item>The Lion Sleeps Tonight – The Tokens</item>
+<item>Little Lion Man – Mumford and Sons</item>
+<item>Live Forever – Oasis</item>
+<item>Livin’ on a Prayer – Bon Jovi</item>
+<item>Lola – The Kinks</item>
+<item>Maggie May – Rod Stewart</item>
+<item>Man of Constant Sorrow – The Soggy Bottom Boys</item>
+<item>Maybe Tomorrow – Terry Bush</item>
+<item>Me and Julio Down by the Schoolyard – Paul Simon</item>
+<item>Monkey Man – Toots and the Maytals</item>
+<item>Mr Jones – Counting Crows</item>
+<item>Mrs Robinson – Simon &amp; Garfunkel</item>
+<item>My Baby Just Cares for Me – Nina Simone</item>
+<item>Never Tear Us Apart – INXS</item>
+<item>New York, New York – Frank Sinatra</item>
+<item>Nine to Five – Dolly Parton</item>
+<item>No Woman No Cry – Bob Marley</item>
+<item>Nobody Knows You When You’re Down and Out – Jimmy Cox</item>
+<item>Ob-La-Di, Ob-La-Da – The Beatles</item>
+<item>Octopus’s Garden – The Beatles</item>
+<item>Oh My God – Kaiser Chiefs</item>
+<item>(Lookin’ Back) Over My Shoulder – Mike &amp; the Mechanics</item>
+<item>Paint it Black (Em) – The Rolling Stones</item>
+<item>Paint it Black (Dm) – The Rolling Stones</item>
+<item>People Are Strange – The Doors</item>
+<item>Pinball Wizard – The Who</item>
+<item>Price Tag – Jessie J</item>
+<item>Psycho Killer – Talking Heads</item>
+<item>Que Sera Sera – Doris Day</item>
+<item>Raindrops Keep Fallin’ on My Head – Burt Bacharach</item>
+<item>Ride a White Swan – T-Rex</item>
+<item>Ring of Fire – Johnny Cash</item>
+<item>Run for Your Life – The Beatles</item>
+<item>Runaway – Del Shannon</item>
+<item>San Francisco Bay Blues – Jesse Fuller</item>
+<item>Save Tonight – Eagle Eye Cherry</item>
+<item>She Wears Red Feathers – Bob Merrill</item>
+<item>Should I Stay or Should I… – The Clash</item>
+<item>Sit Down – James</item>
+<item>Sittin’ on the Dock of the Bay – Otis Reddin’</item>
+<item>Sloop John B – The Beach Boys</item>
+<item>Something – The Beatles</item>
+<item>Somewhere Over the Rainbow – Arlen and Harburg</item>
+<item>Somewhere Over the Rainbow / Wonderful World – Israel K’ole</item>
+<item>SOS – Abba</item>
+<item>Sound of Silence – Simon &amp; Garfunkel</item>
+<item>Spirit in the Sky – Norman Greenbaum</item>
+<item>Stand by Me – Ben E King</item>
+<item>Stuck in the Middle with You – Stealers Wheel</item>
+<item>Sugar Pie Honey Bunch – The Four Tops</item>
+<item>Summer of 69 – Bryan Adams</item>
+<item>Sunny Afternoon – The Kinks</item>
+<item>Suspicious Minds – Elvis Presley</item>
+<item>Sway – Dean Martin</item>
+<item>Sweet Child o’ Mine – GnR</item>
+<item>Sweet Dreams – Eurythmics</item>
+<item>Sweet Georgia Brown – C&amp;P</item>
+<item>Sweet Home Alabama – Lynyrd Skynyrd</item>
+<item>Sympathy for the Devil – The Rolling Stones</item>
+<item>Tainted Love – Soft Cell</item>
+<item>Take it Easy – The Eagles</item>
+<item>Take Me Home, Country Roads – John Denver</item>
+<item>Take on Me – Aha</item>
+<item>Take Your Mama – Scissor Sisters</item>
+<item>Teenage Dirtbag – Wheatus</item>
+<item>Teenage Kicks – The Undertones</item>
+<item>Tell Me Ma – The Dubliners</item>
+<item>The Letter – The Boxtops</item>
+<item>The Look – Roxette</item>
+<item>These Boots Are Made for Walkin’ – Nancy Sinatra</item>
+<item>Three Little Birds – Bob Marley &amp; The Wailers</item>
+<item>The Tide is High / Rudy – Blondie vs The Specials</item>
+<item>Tiptoe Through the Tulips – D&amp;B</item>
+<item>Top of the World – The Carpenters</item>
+<item>Toxic – Britney Spears</item>
+<item>True Faith – New Order</item>
+<item>Two Princes – Spin Doctors</item>
+<item>Umbrella – Rihanna</item>
+<item>Under the Boardwalk – The Drifters</item>
+<item>Valerie – Amy Winehouse / Zutons</item>
+<item>Valerie / Kung Fu Fighting</item>
+<item>Walk of Life – Dire Straits</item>
+<item>Wanted: Dead of Alive – Bon Jovi</item>
+<item>Waterloo Road – Mike Deighan</item>
+<item>We Are Family – Sister Sledge</item>
+<item>Werewolves of London – Warren Zevon</item>
+<item>What a Wonderful World – Sam Cooke</item>
+<item>When the Saints Go Marchin’ In</item>
+<item>Where Do You Go to My Lovely (abridged) – Peter Sarstedt</item>
+<item>Wild World – Cat Stevens</item>
+<item>Will You Still Love Me Tomorrow? – The Shirelles</item>
+<item>Wind of Change – The Scorpions</item>
+<item>With a Little Help from My Friends – The Beatles</item>
+<item>Wonderwall – Oasis</item>
+<item>Yellow – Coldplay</item>
+<item>YMCA – The Village People</item>
+<item>You Are My Sunshine</item>
+<item>You Know I’m No Good – Amy Winehouse</item>
+<item>You’re the One that I Want – Grease</item>
+<item>You’ve Got a Friend in Me – Willie Nelson</item>
+<item>You’ve Got the Love – Florence and the Machine</item>
+</string-array>
+</resources>

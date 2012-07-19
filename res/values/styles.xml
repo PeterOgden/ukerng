@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+
+    <style name="RedButton" parent="android:Widget.Button">
+        <item name="android:background">#000000</item>
+        <item name="android:padding">10pt</item>
+        <item name="android:textColor">#FF0000</item>
+        <item name="android:textSize">10pt</item>
+    </style>
+</resources>
