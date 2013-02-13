@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.Date;
 
@@ -48,30 +49,50 @@ public class RandomActivity extends Activity {
 	
 	@Override
 	protected Dialog onCreateDialog(int id) {
-		AlertDialog.Builder builder = new AlertDialog.Builder(this);
-		builder.setMessage("Played?");
-		builder.setCancelable(true);
-		builder.setPositiveButton("Yes", new Dialog.OnClickListener() {
+		if (id == 0)
+		{
+			AlertDialog.Builder builder = new AlertDialog.Builder(this);
+			builder.setMessage("Played?");
+			builder.setCancelable(true);
+			builder.setPositiveButton("Yes", new Dialog.OnClickListener() {
+				
+				public void onClick(DialogInterface dialog, int which) {
+					m_played = true;
+					dialog.dismiss();
+					nextSong();
+				}
+			});
+			builder.setNegativeButton("No", new Dialog.OnClickListener() {
+	
+				public void onClick(DialogInterface dialog, int which) {
+					m_played = false;
+					dialog.dismiss();
+					nextSong();
+				}
+				
+			});
+			AlertDialog alertDialog = builder.create();
 			
-			public void onClick(DialogInterface dialog, int which) {
-				m_played = true;
-				dialog.dismiss();
-				nextSong();
-			}
-		});
-		builder.setNegativeButton("No", new Dialog.OnClickListener() {
-
-			public void onClick(DialogInterface dialog, int which) {
-				m_played = false;
-				dialog.dismiss();
-				nextSong();
-			}
 			
-		});
-		AlertDialog alertDialog = builder.create();
+			return alertDialog;
+		}
+		else
+		{
+			AlertDialog.Builder builder = new AlertDialog.Builder(this);
+			
+			builder.setTitle("Select Venue");
+			builder.setItems(R.array.venues, new DialogInterface.OnClickListener() {
+				
+				public void onClick(DialogInterface dialog, int which) {
+					// TODO Auto-generated method stub
+					m_venue = getResources().getStringArray(R.array.venues)[which];
+				}
+			});
+			
+			AlertDialog alertDialog = builder.create();
+			return alertDialog;
+		}
 		
-		
-		return alertDialog;
 	}
 	
 	void nextSong()
@@ -93,17 +114,38 @@ public class RandomActivity extends Activity {
 	}
 	
 	@Override
+	public void onSaveInstanceState(Bundle outState)
+	{
+		super.onSaveInstanceState(outState);
+		outState.putStringArray("values", m_numbers.toArray(new String[m_numbers.size()]));
+		outState.putInt("current", currentIndex);
+		outState.putString("venue", m_venue);
+	}
+	
+	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
-		m_numbers = new ArrayList<String>(215);
-		for (int i = 0; i <= 211; ++i)
+		if (savedInstanceState != null)
 		{
-			m_numbers.add(Integer.toString(i+4));
-			
+			currentIndex = savedInstanceState.getInt("current", 0);
+			String[] vals = savedInstanceState.getStringArray("values");
+			if (vals != null)
+			{
+				m_numbers = new ArrayList<String>(Arrays.asList(vals));
+			}
+			m_venue = savedInstanceState.getString("venue");
 		}
-		Collections.shuffle(m_numbers);
-		
+		if (m_numbers == null)
+		{
+			m_numbers = new ArrayList<String>(215);
+			for (int i = 0; i <= 211; ++i)
+			{
+				m_numbers.add(Integer.toString(i+4));
+				
+			}
+			Collections.shuffle(m_numbers);
+		}
 		m_text = (TextView)findViewById(R.id.Number);
 		m_songName = (TextView)findViewById(R.id.song_name);
 		setSong(Integer.parseInt(m_numbers.get(currentIndex)));
@@ -120,6 +162,10 @@ public class RandomActivity extends Activity {
 		{
 			m_output = null;
 		}
+		if (m_venue == null)
+		{
+			showDialog(1);
+		}
 	}
 	
 	OnClickListener mNextListener = new OnClickListener() {
@@ -133,8 +179,11 @@ public class RandomActivity extends Activity {
 	{
 		try
 		{
-			m_output.write(((String) DateFormat.format("yyyy,MM,dd,hh,mm,", new Date())) + (m_numbers.get(currentIndex)) + "," + m_selected + "," + m_played + "\n");
-			m_output.flush();
+			if (m_output != null)
+			{
+				m_output.write(((String) DateFormat.format("yyyy,MM,dd,hh,mm,", new Date())) + (m_numbers.get(currentIndex)) + "," + m_selected + "," + m_played + "," + m_venue + "\n");
+				m_output.flush();
+			}
 		}
 		catch (IOException e)
 		{

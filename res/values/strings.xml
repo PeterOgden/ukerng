@@ -5,5 +5,10 @@
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_select">SelectActivity</string>
+    <string-array name="venues">
+        <item >George</item>
+        <item >Albany</item>
+        <item >Test</item>
+    </string-array>
 
 </resources>
