@@ -35,6 +35,7 @@ public class RandomActivity extends Activity {
 	private Boolean m_selected = false;
 	private Boolean m_played = false;
 	private Boolean m_showSelect = false;
+	private String m_venue;
 	
 	private void setSong(int number)
 	{
